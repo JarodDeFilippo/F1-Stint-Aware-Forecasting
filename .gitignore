@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Claude Code workspace state — editor config, not project content
+.claude/
+
+# FastF1 raw cache — large (~450MB), regenerable from API
+data/fastf1_cache/
+
+# Notebook backup left by the refactor script
+*.ipynb.bak
+
+# Processed dataset (data/processed/laps.csv, ~7MB) is intentionally NOT ignored —
+# committing it gives a fast cold start without hitting the FastF1 API.
+#
+# results/*.json is intentionally NOT ignored — keeping every training run committed
+# preserves a durable record of model performance across changes.
