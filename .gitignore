@@ -25,3 +25,4 @@ data/fastf1_cache/
 #
 # results/*.json is intentionally NOT ignored — keeping every training run committed
 # preserves a durable record of model performance across changes.
+.vscode/
