@@ -1,6 +1,6 @@
 # F1 Lap Time Forecasting
 
-> Extends [JarodDeFilippo/F1-Lap-Time-Forecasting](https://github.com/JarodDeFilippo/F1-Lap-Time-Forecasting) (DAT 494 final project, v1). This repo is v2: pit-in classifier head + pit-aware features.
+> Extends [JarodDeFilippo/F1-Pit-Aware-Forecasting](https://github.com/JarodDeFilippo/F1-Pit-Aware-Forecasting) (v2), which extends [JarodDeFilippo/F1-Lap-Time-Forecasting](https://github.com/JarodDeFilippo/F1-Lap-Time-Forecasting) (DAT 494 final project, v1). This repo is v3.
 
 Predicting Formula 1 lap times from a driver's most recent ten laps for their next five laps using a Multilayer Perceptron and an LSTM, trained on three seasons (2024–2026) of race data from the FastF1 library.
 
